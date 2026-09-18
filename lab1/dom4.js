@@ -3,6 +3,6 @@ const form = new EventEmitter();
 form.on("submit", (uname, password) => {
   console.log("form submitted");
   console.log(`user name:${uname}`);
-  console.log(`user password:${password}`);
+  console.log(`user's  password:${password}`);
 });
 form.emit("submit", "abc@abc.com 😘", 123321);
