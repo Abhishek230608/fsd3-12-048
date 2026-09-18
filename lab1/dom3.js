@@ -5,5 +5,5 @@ button.on("click", (uname) => {
 });
 button.emit("click", "Abhijeet singh");
 button.emit("click", "Abhishek");
-button.emit("click", "Rani");
+button.emit("click", "Rani kumari");
 button.emit("click");
