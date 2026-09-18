@@ -60,7 +60,7 @@ class DomClass extends EventEmitter {
 const button = new DomClass();
 
 const handleClick = (event) => {
-  console.log("Button Clicked!");
+  console.log("Button is clicked  Clicked!");
   console.log(`Type: ${event.type}`);
   console.log(`Target: ${event.target}`);
   console.log(`Timestamp: ${event.timestamp}`);
