@@ -14,3 +14,5 @@ MOdern JS is of two types
    - priority (nextTick, Promise, setImmediate/setTimeout)
 2. ModuleJS (.mjs) -> follow modular approach -> import
    - priority (Promise, nextTick, setImmediate/setTimeout)
+
+   jdjhdjvdbhjdgv
