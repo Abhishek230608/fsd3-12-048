@@ -2,7 +2,7 @@ import http from "http";
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "content-type": "text/json" });
-  console.log("Client ULR:", req.url);
+  console.log("Clientt ULR:", req.url);
 
   const product = [
     {
