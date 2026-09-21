@@ -92,7 +92,7 @@ const main = async () => {
 
         break;
       case 4:
-        let pid2 = await cin.question("enter product id to update: ");
+        let pid2 = await cin.question("enter proooduct id to update: ");
         let value = await cin.question("+1 increase , -1 decrease");
         await updatecart(Number(pid), Number(value));
         break;
