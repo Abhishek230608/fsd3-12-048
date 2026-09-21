@@ -2,7 +2,7 @@ import http from "http";
 
 const server = http.createServer((req, res) => {
   if ((req.url === "/api/users", req.method === "GET")) {
-    res.end(JSON.stringify({ msg: "all users" }));
+    res.end(JSON.stringify({ msg: "all userss" }));
   } else if ((req.url === "/api/users", req.method === "POST")) {
     res.end(JSON.stringify({ msg: "add user" }));
   } else if ((req.url === "/api/users/1", req.method === "GET")) {
