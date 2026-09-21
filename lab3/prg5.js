@@ -2,7 +2,7 @@ import http from "http";
 
 const server = http.createServer((req, res) => {
   if (req.url == "/") {
-    res.write("<h1>Home Page</h1>");
+    res.write("<h1>Hhome Page</h1>");
     res.end(`
             <a href="/product">Product</a>
             <a href="/contact">Contact</a>
