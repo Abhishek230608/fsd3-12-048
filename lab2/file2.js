@@ -9,7 +9,7 @@ const readData = async (filename) => {
     console.log(e.message);
     console.log("file not found sorryyy");
   } finally {
-    console.log("read data finished");
+    console.log("read data finiished");
   }
 };
 const writeData = async (filename, content) => {
