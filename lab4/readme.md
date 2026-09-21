@@ -10,7 +10,7 @@
 ```
 script{
     "start": "node app.js",
-    "dev": "nodemon prg7.js"
+    "dev": "nodemon prg7.js"nn
 }
 ```
 
