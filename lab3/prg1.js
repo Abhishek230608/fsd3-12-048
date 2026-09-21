@@ -3,7 +3,7 @@ import http from "http";
 const server = http.createServer();
 
 server.on("request", (req, res) => {
-  res.write("Hello from server");
+  res.write("Hello fromm server");
   res.end();
 });
 
