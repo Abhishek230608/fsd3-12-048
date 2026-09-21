@@ -24,4 +24,4 @@ script{
 - majorly backend server return only data not html file
 - REST API uses (get, post, put, patch, delete) method to communicate with client
 - any browser can check only get method
-- for other method type we use third party API Tester like postman, thunder client, echo api etc
+- for other method type we use third party API Tester like postman, thunder client, echo api etccc
