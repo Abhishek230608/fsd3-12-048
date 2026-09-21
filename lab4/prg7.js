@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   } else if ((req.url === "/api/users/1", req.method === "GET")) {
     res.end(JSON.stringify({ msg: "single user with id 1" }));
   } else if ((req.url === "/api/users/1", req.method === "PUT")) {
-    res.end(JSON.stringify({ msg: "update user 1" }));
+    res.end(JSON.stringify({ msg: "update userr 1" }));
   } else if ((req.url === "/api/users/1", req.method === "DELETE")) {
     res.end(JSON.stringify({ msg: "remove 1" }));
   } else {
